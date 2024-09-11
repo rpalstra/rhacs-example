@@ -17,7 +17,7 @@ spec:
   auditLogs:
     collection: Auto
   centralEndpoint: central-stackrox.apps.DOMAIN:443
-  clusterName: c11
+  clusterName: CLUSTERNAME
   perNode:
     collector:
       collection: EBPF
