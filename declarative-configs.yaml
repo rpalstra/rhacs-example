@@ -1,0 +1,16 @@
+apiVersion: v1
+data:
+  oauth.yaml: |
+    name: openshift
+    uiEndpoint: central-stackrox.apps.DOMAIN:443
+    openshift:
+        enable: true
+    minimumRole: Admin
+    groups:
+        - key: name
+          value: admin
+          role: Admin
+kind: ConfigMap
+metadata:
+  name: declarative-configurations
+  namespace: stackrox
