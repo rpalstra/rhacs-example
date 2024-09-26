@@ -13,7 +13,7 @@ spec:
     listenOnEvents: true
     listenOnUpdates: true
     replicas: 3
-    timeoutSeconds: 20
+    timeoutSeconds: 10
   auditLogs:
     collection: Auto
   centralEndpoint: central-stackrox.apps.DOMAIN:443
