@@ -13,5 +13,7 @@ spec:
     exposure:
       route:
         enabled: true
+        reencrypt:
+          enabled: true
   scannerV4:
     scannerComponent: Enabled
